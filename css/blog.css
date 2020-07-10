@@ -32,7 +32,7 @@ ul {
 }
 
 .nav-active {
-    color: var(--alternative-background-color) !important;
+    color: #E6B001 !important;
 }
 
 /* Landing Image */
