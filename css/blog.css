@@ -4,6 +4,7 @@
     --primary-background-color: #FFFFFF;
     --secondary-background-color: #000000;
     --alternative-background-color: #ADB901;
+    --nav-link-background-color: #E6B001;
 }
 
 body {
@@ -32,7 +33,7 @@ ul {
 }
 
 .nav-active {
-    color: #E6B001 !important;
+    color: var(--nav-link-background-color) !important;
 }
 
 /* Landing Image */
@@ -96,12 +97,58 @@ ul {
 .image-inner .heading {
     font-weight: 600;
     font-size: 22px;
-    line-height: 32px;
+    line-height: 20px;
 }
 
 .image-inner span {
     font-weight: bold;
-    color: #ADB901;
+    color: var(--alternative-background-color);
+}
+
+.seperator {
+    width: 100%;
+    border: 3px solid var(--nav-link-background-color);
+}
+
+.hide-inner-image {
+    height: 95px;
+}
+
+.hidden-content-pecan,
+.hidden-content-journey,
+.hidden-content-italian,
+.hidden-content-lemon
+ {
+    display: none;
+}
+
+.show-content {
+    display: block;
+}
+
+.hide-inner-content {
+    display: none;
+}
+
+.back {
+    font-size: 14px !important;
+    width: 60px !important;
+    height: 30px !important;
+    padding: 0;
+}
+
+.read-more {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.dot {
+    display: inline-block;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    background: #ADB901;
 }
 
 /* Recent Posts */
@@ -124,7 +171,8 @@ ul {
     width: 130px;
 }
 
-.boxes {
+.boxes,
+.back {
     width: 70px;
     height: 35px;
     border: 1.5px solid #4B420B;
