@@ -296,13 +296,60 @@ footer {
         margin-top: 625px;
     }
 
-    /* Recent Posts */
-    .recent-posts {
+    .move-recipes {
         position: absolute;
-        top: 717px;
+        right: 0;
+        width: 274px;
+        padding: 0 !important;
+        top: 571px;
+    }
+
+    .move-recipes-1 {
+        position: absolute;
+        right: 0;
+        width: 274px;
+        padding: 0 !important;
+        top: 827px;
+    }
+
+    .move-recipes-2 {
+        position: absolute;
+        right: 0;
+        width: 274px;
+        padding: 0 !important;
+        top: 1083px;
+    }
+
+    .move-bg-image {
+        height: 224px;
+        width: 274px;
+    }
+
+    .move-image-inner {
+        width: 225px;
+        height: 128px;
+        font-size: 12px;
+        line-height: 14px;
+        left: 10px;
+        bottom: 7px;
+    }
+
+    .move-image-header {
+        font-size: 16px !important;
+        line-height: 16px !important;
+    }
+
+    /* Recent Posts */
+    .larger-screens {
+        position: relative;
+    }
+    .recent-posts {
+        position: absolute; 
+        top: 0;
         right: 0;
         width: 274px;
     }
+
 
     .recent-posts .heading,
     .recent-posts .content {
@@ -314,7 +361,20 @@ footer {
         justify-content: start !important;
     }
 
+    /* Navigator */
+    .hide-navigator{
+        display: none;
+    }
+
     /* Footer */
+    footer {
+       margin-top: 109px;
+    }
+
+    .move-footer {
+        margin-top: 485px;
+    }
+
     .footer-logo {
         justify-content: start !important;
     }
@@ -334,6 +394,50 @@ footer {
         position: relative;
     }
 
+    /* Recipes */
+    .move-recipes {
+        position: absolute;
+        right: 40px;
+        width: 274px;
+        padding: 0 !important;
+        top: 571px;
+    }
+
+    .move-recipes-1 {
+        position: absolute;
+        right: 40px;
+        width: 274px;
+        padding: 0 !important;
+        top: 827px;
+    }
+
+    .move-recipes-2 {
+        position: absolute;
+        right: 40px;
+        width: 274px;
+        padding: 0 !important;
+        top: 1083px;
+    }
+
+    .move-bg-image {
+        height: 224px;
+        width: 274px;
+    }
+
+    .move-image-inner {
+        width: 225px;
+        height: 128px;
+        font-size: 12px;
+        line-height: 14px;
+        left: 10px;
+        bottom: 7px;
+    }
+
+    .move-image-header {
+        font-size: 16px !important;
+        line-height: 16px !important;
+    }
+
     /* Recent Posts */
     .recent-posts {
         position: absolute;
@@ -341,13 +445,23 @@ footer {
         right: 40px;
         width: 274px;
     }
+
+     /* Navigator */
+     .hide-navigator{
+        display: none;
+    }
+
+    /* Footer */
+    .move-footer {
+        margin-top: 485px;
+    }
 }
 
 @media all and (min-width: 1200px) {
     .collapse {
         margin-left: 500px;
     }
-
+    /* Recipes */
     .recipe-1 .heading {
         font-weight: 600;
         font-size: 37px;
@@ -363,6 +477,49 @@ footer {
     .image-inner {
         width: 552px;
         height: 300px;
+    }
+    
+    .move-recipes {
+        position: absolute;
+        right: 72px;
+        width: 274px;
+        padding: 0 !important;
+        top: 571px;
+    }
+
+    .move-recipes-1 {
+        position: absolute;
+        right: 72px;
+        width: 274px;
+        padding: 0 !important;
+        top: 827px;
+    }
+
+    .move-recipes-2 {
+        position: absolute;
+        right: 72px;
+        width: 274px;
+        padding: 0 !important;
+        top: 1083px;
+    }
+
+    .move-bg-image {
+        height: 224px;
+        width: 274px;
+    }
+
+    .move-image-inner {
+        width: 225px;
+        height: 128px;
+        font-size: 12px;
+        line-height: 14px;
+        left: 10px;
+        bottom: 7px;
+    }
+
+    .move-image-header {
+        font-size: 16px !important;
+        line-height: 16px !important;
     }
 
     .recent-posts {
