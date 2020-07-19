@@ -79,7 +79,7 @@ function moveOtherRecipes(e) {
         imageInner[0].classList.toggle('move-image-inner')
         imageHeader[0].classList.toggle('move-image-header')
         bgImage[0].classList.toggle('move-bg-image')
-        ccontent[0].classList.toggle('move-image-content')
+        content[0].classList.toggle('move-image-content')
         contentUnder[0].classList.toggle('move-content-under')
         for(n=2; n<imageInner.length; n++){
             imageInner[n].classList.toggle('move-image-inner')
