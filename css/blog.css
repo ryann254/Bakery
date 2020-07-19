@@ -151,6 +151,13 @@ ul {
     background: #ADB901;
 }
 
+.read-pecan,
+.read-journey,
+.read-italian,
+.read-lemon {
+    cursor: pointer;
+}
+
 /* Recent Posts */
 .recent-posts {
     color: var(--secondary-background-color);
@@ -468,7 +475,18 @@ footer {
         line-height: 50px;
     }
 
-    .recipe-1 .content {
+    .recipe-1 .content,
+    .recipe-1 .content-under {
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 29px;
+    }
+
+    .hide-inner-image {
+        height: 135px !important;
+    }
+
+    .read-more {
         font-weight: normal;
         font-size: 21px;
         line-height: 29px;
@@ -511,15 +529,33 @@ footer {
     .move-image-inner {
         width: 225px;
         height: 128px;
-        font-size: 12px;
-        line-height: 14px;
         left: 10px;
         bottom: 7px;
     }
 
     .move-image-header {
+        padding: .5rem !important;
         font-size: 16px !important;
         line-height: 16px !important;
+    }
+
+    .move-image-content {
+        padding: 0 0 0 .5rem !important;
+        font-size: 12px !important;
+        line-height: 14px !important;
+    }
+
+    .move-content-under {
+        padding: .5rem !important;
+        font-size: 12px !important;
+        line-height: 14px !important;
+    }
+
+    .back {
+        font-size: 18px !important;
+        width: 90px !important;
+        height: 40px !important;
+        padding: 0;
     }
 
     .recent-posts {

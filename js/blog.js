@@ -22,8 +22,10 @@ const imageHeader = document.querySelectorAll('#heading')
 const navigator = document.querySelector('.page-navigator')
 const bgImage = document.querySelectorAll('.bg-image')
 const footer = document.querySelector('footer')
+const contentUnder = document.querySelectorAll('.content-under')
 
 let names = [readPeacan,readJourney,readItalian,readLemon]
+let content = [contentPecan,contentJourney,contentItalian,contentLemon]
 for(n=0; n<names.length; n++){
     names[n].addEventListener('click', toggleItem);
     backButton[n].addEventListener('click', toggleItem)
@@ -66,6 +68,8 @@ function moveOtherRecipes(e) {
             imageInner[n].classList.toggle('move-image-inner')
             imageHeader[n].classList.toggle('move-image-header')
             bgImage[n].classList.toggle('move-bg-image')
+            content[n].classList.toggle('move-image-content')
+            contentUnder[n].classList.toggle('move-content-under')
         }
     }
     else if(e.target.className === 'read-journey' || e.target.id === 'back-journey') {
@@ -75,10 +79,15 @@ function moveOtherRecipes(e) {
         imageInner[0].classList.toggle('move-image-inner')
         imageHeader[0].classList.toggle('move-image-header')
         bgImage[0].classList.toggle('move-bg-image')
+        ccontent[0].classList.toggle('move-image-content')
+        contentUnder[0].classList.toggle('move-content-under')
         for(n=2; n<imageInner.length; n++){
             imageInner[n].classList.toggle('move-image-inner')
             imageHeader[n].classList.toggle('move-image-header')
             bgImage[n].classList.toggle('move-bg-image')
+            content[n].classList.toggle('move-image-content')
+            contentUnder[n].classList.toggle('move-content-under')
+
         }
     }
     else if(e.target.className === 'read-italian' || e.target.id === 'back-italian') {
@@ -88,10 +97,15 @@ function moveOtherRecipes(e) {
         imageInner[3].classList.toggle('move-image-inner')
         imageHeader[3].classList.toggle('move-image-header')
         bgImage[3].classList.toggle('move-bg-image')
+        content[3].classList.toggle('move-image-content')
+        contentUnder[3].classList.toggle('move-content-under')
+
         for(n=0; n<imageInner.length-2; n++){
             imageInner[n].classList.toggle('move-image-inner')
             imageHeader[n].classList.toggle('move-image-header')
             bgImage[n].classList.toggle('move-bg-image')
+            content[n].classList.toggle('move-image-content')
+            contentUnder[n].classList.toggle('move-content-under')
         }
     }
     else {
@@ -102,6 +116,8 @@ function moveOtherRecipes(e) {
             imageInner[n].classList.toggle('move-image-inner')
             imageHeader[n].classList.toggle('move-image-header')
             bgImage[n].classList.toggle('move-bg-image')
+            content[n].classList.toggle('move-image-content')
+            contentUnder[n].classList.toggle('move-content-under')
         }
     }
 }
