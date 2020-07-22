@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Nunito+Sans&display=swap');
+
+:root {
+    --landing-font-color: #664E00;
+    --primary-font-color: #191400;
+    --alternative-font-color: #CC9D01;
+    --alternative-background-color: #ADB901;
+}
+
+/* Landing Image */
+.landing-inner {
+    font-family: 'Clicker Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 30px;
+    color: var(--landing-font-color);
+    transform: translateX(-50%);
+    top: 200px;
+}
+
+.logo {
+    width: 310px;
+}
+
+.blog {
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--primary-font-color);
+}
+
+/* Introduction */
+.intro {
+    margin-top: 299px;
+    background: linear-gradient(34.34deg, #A7B2C3 19.51%,
+     #CCD5DF 31.73%, #D5DEE6 50.37%, #D5DEE6 64.83%);
+}
+
+.chef img{
+    height: 300px;
+}
+
+.chef-heading {
+    font-family: 'Clicker Script', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 66px;
+    color: var(--alternative-font-color);
+}
+
+.chef-about {
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--landing-font-color);
+}
+
+/* Work */
+.work {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.work-display .image {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.work-header {
+    text-transform: capitalize;
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.work .landing-decorator,
+.homepage-blog .landing-decorator {
+    margin-top: -15px;
+}
+
+.icon-left {
+    height: 35px;
+}
+
+.work-1 {
+    height: 350px;
+}
+
+/* Blog */
+.read-pecan,
+.read-journey {
+    background: var(--alternative-background-color);
+    padding: 2px 4px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.image-inner {
+    line-height: 20px;
+}
+
+/* Form */
+.form-group input {
+    background: #FFFFFF;
+    border: 1px solid rgba(25, 20, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+form .btn {
+    background: var(--alternative-background-color);
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+@media all and (max-width: 320px) {
+    .image-inner .heading {
+        line-height: 20px;
+    }
+
+    .image-inner {
+        line-height: 16px;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .landing-image {
+        height: 430px;
+    }
+    .intro {
+        margin-top: 329px;
+    }
+}

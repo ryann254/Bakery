@@ -7,6 +7,10 @@
     --nav-link-background-color: #E6B001;
 }
 
+html,body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
@@ -15,7 +19,6 @@ body {
     line-height: 27px;
     background: #F7F7F7;
     color: var(--primary-background-color);
-    overflow-x: hidden;
 }
 
 .container-fluid {
