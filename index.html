@@ -53,7 +53,8 @@
     <!-- Landing-image -->
     <section>
         <div class="landing">
-            <img src="./images/home-background-mobile.png" alt="landing-image" class="img-fluid landing-image">
+            <img src="./images/home-background-mobile.png" alt="landing-image" class="img-fluid landing-image smaller">
+            <img src="./images/home-background.png" alt="landing-image" class="img-fluid landing-image larger">
             <div class="landing-inner">
                 <div class="row logo col-12 justify-content-center">
                     Nonso Williams
@@ -66,19 +67,26 @@
                 <img src="./images/twitter.png" alt="landing-image" class="img-fluid landing-icon">
                 </div>
             </div>
+            <div class="">
+                <img src="./images/eclipse.png" alt="eclipse" class="img-fluid eclipse">
+            </div>
         </div>
     </section>
 
     <!-- Introduction -->
     <section>
         <div class="container intro">
-            <div class="chef row justify-content-center mb-3">
-                <img src="./images/chef-smaller-screens.png" alt="chef" class="img-fluid">
+            <div class="row">
+            <div class="chef row col-12 col-md-6 justify-content-center mb-3">
+                <div class="chef-image">
+                    <img src="./images/chef-smaller-screens.png" alt="chef" class="img-fluid">
+                </div>
             </div>
-            <div class="chef-about text-center">
+            <div class="chef-about col-md-6 my-auto text-center">
                 <span class="chef-heading mb-2">Hi, I am Nonso Williams</span>
                 <div class="pb-3">I am a Cake Chef, most folks know me as Nonso but in the inudustry I’m also known as the Fundat King. I have been a Cake Chef for the better part of a decade. I cut my teeth at the Abuja Catering School for Deserts before obtaining a degree at the famous institute of Culinary Education in Pastry Arts, Cake Techniques & Design as well as the Art of International Bread Baking</div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -92,17 +100,17 @@
             <div class="text-center">
                 Here is a compilation of some of the cakes and pastries I've made over the years.Please feel free to peruse through them and feed your eyes.
             </div>
-            <div class="work-display mt-4 row">
+            <div class="work-display mt-4 row justify-content-center">
                 <div class="my-auto ml-1 mr-1">
                     <img src="./images/chevron-left.png" alt="work" class="img-fluid icon-left">
                 </div>
-                <div class="col-5 image">
+                <div class="col-5 col-sm-3 image">
                     <img src="./images/work-1.png" alt="work" class="img-fluid work-1">
                 </div>
-                <div class="col-5 image">
+                <div class="col-5 col-sm-3 image">
                     <img src="./images/work-2.png" alt="work" class="img-fluid work-1">
                 </div>
-                <div class="col-5 mx-auto image">
+                <div class="col-5 col-sm-3 image">
                     <img src="./images/work-3.png" alt="work" class="img-fluid work-1">
                 </div>
                 <div class="my-auto mr-2">
@@ -121,20 +129,21 @@
             </div>
             <div class="recipes mt-4 text-white">
                 <div class="row">
-                    <div class="recipe-1 col-md-8 mb-5" id="pecan-container">
+                    <div class="recipe-1 col-md-6 mb-5" id="pecan-container">
                         <img src="./images/cake.png" alt="cake" class="img-fluid bg-image">
                         <div class="image-inner">
                             <div class="heading p-2 p-xl-3" id="heading">Pecan Pie Recipe</div>
                             <div class="content pl-2 p-xl-3" id="pecan">So I woke up this morning and had the most marvelous idea for my already awesome pecan pie recipe. Yes we're adding a new ingredient but it's something that you can...</div>
-                            <div class="content-under pl-2 pt-2"><button class="read-pecan btn text-white">Read more</button></div>
+                            <div class="content-under pl-2 pl-xl-3 pt-2"><button class="read-pecan btn">
+                               <a href="blog.html">Read more</a></button></div>
                         </div>
                     </div>
-                    <div class="recipe-1 col-md-8 mb-5" id="journey-container">
+                    <div class="recipe-1 col-md-6 mb-5" id="journey-container">
                         <img src="./images/journey.png" alt="cake" class="img-fluid bg-image">
                         <div class="image-inner" id="image-inner">
                             <div class="heading p-2 p-xl-3" id="heading">My Journey So Far</div>
                             <div class="content pl-2 p-xl-3" id="journey">A lot of folks see me and go oh wow you're the Fondat King and want to get a picture thanks to the show on Food Net but they don't know the full story of waht it took to get here...</div>
-                            <div class="content-under pl-2 pt-2"><button class="read-journey btn text-white">Read more</span></div>
+                            <div class="content-under pl-2 pl-xl-3 pt-2"><button class="read-journey btn"><a href="blog.html">Read more</a></span></div>
                         </div>
                     </div>
                 </div>
@@ -144,6 +153,10 @@
 
     <!-- Contact Us -->
     <section>
+        <div class="section-contact container">
+        <div class="cupcakes">
+            <img src="./images/contact-cake.png" alt="contact-cupcakes" class="img-fluid">
+        </div>
         <div class="container contact text-dark mb-4">
             <div class="pt-4 text-center">
                 <div class="work-header font-weight-bold">need my services?</div>
@@ -151,16 +164,16 @@
             </div>
             <div class="form">
                 <form>
-                    <div class="form-group mb-4">
+                    <div class="form-group row justify-content-center mb-4">
                       <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Papa Dracula...">
                     </div>
-                    <div class="form-group mb-4">
+                    <div class="form-group row justify-content-center mb-4">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="PapaDracula@gmail.com...">
                     </div>
-                    <div class="form-group mb-4">
+                    <div class="form-group row justify-content-center mb-4">
                         <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Possible Gig at KICC">
                     </div>
-                    <div class="form-group mb-4">
+                    <div class="form-group row justify-content-center mb-4">
                         <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Messages" rows="3"></textarea>
                     </div>
                     <div class="row justify-content-center">
@@ -168,6 +181,10 @@
                     </div>
                   </form>
             </div>
+        </div>
+        <div class="cake">
+            <img src="./images/contact-cupcakes.png" alt="contact-cupcakes" class="img-fluid">
+        </div>
         </div>
     </section>
 
