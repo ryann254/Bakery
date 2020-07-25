@@ -1,1 +1,215 @@
-<?php header("Location: /index.html");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Home</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Page css -->
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light bg-light nav-bg">
+                <a href="#" class="navbar-brand pl-lg-5">
+                    <img src="./images/NW.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+                aria-controls="collapsibleNavbar"
+                aria-expanded="false"
+                aria-label="Toggle Navigation">
+                <!-- <img src="./img/signup/hamburger-menu-38.png" alt="hamburger-menu" class="img-fluid">    -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav text-center" id="growth">
+                    <li class="nav-item pr-2 normal">
+                        <a class="nav-link nav-active" href="#">Home</a>
+                        <div class="active-line"></div>
+                        </li>
+                        <li class="nav-item pr-2 normal">
+                        <a class="nav-link" href="coming-soon-page.html">About</a>
+                        </li>
+                        <li class="nav-item pr-2 normal">
+                        <a class="nav-link" href="coming-soon-page.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item pr-2 normal">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item normal pr-lg-4">
+                        <a class="nav-link" href="coming-soon-page.html">Contact</a>
+                        </li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Landing-image -->
+    <section>
+        <div class="landing">
+            <img src="./images/home-background-mobile.png" alt="landing-image" class="img-fluid landing-image smaller">
+            <img src="./images/home-background.png" alt="landing-image" class="img-fluid landing-image larger">
+            <div class="landing-inner">
+                <div class="row logo col-12 justify-content-center">
+                    Nonso Williams
+                </div>
+                <div class="row col-12 justify-content-center">
+                    <img src="./images/decorator.png" alt="landing-image" class="img-fluid landing-decorator"></div>
+                <div class="row blog  col-12 justify-content-center">private chef</div>
+                <div class="row col-12 justify-content-center">
+                <img src="./images/instagram.png" alt="landing-image" class="img-fluid landing-icon mr-3">
+                <img src="./images/twitter.png" alt="landing-image" class="img-fluid landing-icon">
+                </div>
+            </div>
+            <div class="">
+                <img src="./images/eclipse.png" alt="eclipse" class="img-fluid eclipse">
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section>
+        <div class="container intro">
+            <div class="row">
+            <div class="chef row col-12 col-md-6 justify-content-center mb-3">
+                <div class="chef-image">
+                    <img src="./images/chef-smaller-screens.png" alt="chef" class="img-fluid">
+                </div>
+            </div>
+            <div class="chef-about col-md-6 my-auto text-center">
+                <span class="chef-heading mb-2">Hi, I am Nonso Williams</span>
+                <div class="pb-3">I am a Cake Chef, most folks know me as Nonso but in the inudustry I’m also known as the Fundat King. I have been a Cake Chef for the better part of a decade. I cut my teeth at the Abuja Catering School for Deserts before obtaining a degree at the famous institute of Culinary Education in Pastry Arts, Cake Techniques & Design as well as the Art of International Bread Baking</div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section>
+        <div class="container work text-dark">
+            <div class="pt-4 text-center">
+                <div class="work-header font-weight-bold">some of my work</div>
+                <img src="./images/decorator.png" alt="landing-image" class="img-fluid landing-decorator">
+            </div>
+            <div class="text-center">
+                Here is a compilation of some of the cakes and pastries I've made over the years.Please feel free to peruse through them and feed your eyes.
+            </div>
+            <div class="work-display mt-4 row justify-content-center">
+                <div class="my-auto ml-1 mr-1">
+                    <img src="./images/chevron-left.png" alt="work" class="img-fluid icon-left">
+                </div>
+                <div class="col-5 col-sm-3 image">
+                    <img src="./images/work-1.png" alt="work" class="img-fluid work-1">
+                </div>
+                <div class="col-5 col-sm-3 image">
+                    <img src="./images/work-2.png" alt="work" class="img-fluid work-1">
+                </div>
+                <div class="col-5 col-sm-3 image">
+                    <img src="./images/work-3.png" alt="work" class="img-fluid work-1">
+                </div>
+                <div class="my-auto mr-2">
+                    <img src="./images/chevron-right.png" alt="work" class="img-fluid icon-left">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section>
+        <div class="container homepage-blog text-dark">
+            <div class="pt-4 text-center">
+                <div class="work-header font-weight-bold">my blog posts</div>
+                <img src="./images/decorator.png" alt="landing-image" class="img-fluid landing-decorator">
+            </div>
+            <div class="recipes mt-4 text-white">
+                <div class="row">
+                    <div class="recipe-1 col-md-6 mb-5" id="pecan-container">
+                        <img src="./images/cake.png" alt="cake" class="img-fluid bg-image">
+                        <div class="image-inner">
+                            <div class="heading p-2 p-xl-3" id="heading">Pecan Pie Recipe</div>
+                            <div class="content pl-2 p-xl-3" id="pecan">So I woke up this morning and had the most marvelous idea for my already awesome pecan pie recipe. Yes we're adding a new ingredient but it's something that you can...</div>
+                            <div class="content-under pl-2 pl-xl-3 pt-2"><button class="read-pecan btn">
+                               <a href="blog.html">Read more</a></button></div>
+                        </div>
+                    </div>
+                    <div class="recipe-1 col-md-6 mb-5" id="journey-container">
+                        <img src="./images/journey.png" alt="cake" class="img-fluid bg-image">
+                        <div class="image-inner" id="image-inner">
+                            <div class="heading p-2 p-xl-3" id="heading">My Journey So Far</div>
+                            <div class="content pl-2 p-xl-3" id="journey">A lot of folks see me and go oh wow you're the Fondat King and want to get a picture thanks to the show on Food Net but they don't know the full story of waht it took to get here...</div>
+                            <div class="content-under pl-2 pl-xl-3 pt-2"><button class="read-journey btn"><a href="blog.html">Read more</a></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section>
+        <div class="section-contact container">
+        <div class="cupcakes">
+            <img src="./images/contact-cake.png" alt="contact-cupcakes" class="img-fluid">
+        </div>
+        <div class="container contact text-dark mb-4">
+            <div class="pt-4 text-center">
+                <div class="work-header font-weight-bold">need my services?</div>
+                <img src="./images/decorator.png" alt="landing-image" class="img-fluid landing-decorator">
+            </div>
+            <div class="form">
+                <form>
+                    <div class="form-group row justify-content-center mb-4">
+                      <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Papa Dracula...">
+                    </div>
+                    <div class="form-group row justify-content-center mb-4">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="PapaDracula@gmail.com...">
+                    </div>
+                    <div class="form-group row justify-content-center mb-4">
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Possible Gig at KICC">
+                    </div>
+                    <div class="form-group row justify-content-center mb-4">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Messages" rows="3"></textarea>
+                    </div>
+                    <div class="row justify-content-center">
+                        <button type="submit" class="btn text-white">Submit</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+        <div class="cake">
+            <img src="./images/contact-cupcakes.png" alt="contact-cupcakes" class="img-fluid">
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+        <div class="row">
+        <div class="footer-logo col-12 col-sm-6 d-flex justify-content-center mt-3 mt-md-2 mb-3 mb-md-1 pl-md-5">
+            &copy;
+            <img src="./images/Nonso Williams.png" alt="Nonso" class="img-fluid Nonso">
+        </div>
+        <div class="footer-logo-2 col-12 col-sm-6 d-flex justify-content-center mt-sm-4 mt-md-2 mb-3 mb-md-1 pr-md-5">
+            <img src="./images/instagram-footer.png" alt="instagram" class="img-fluid landing-icon mr-3">
+            <img src="./images/twitter-footer.png" alt="twitter" class="img-fluid landing-icon">
+        </div>
+        </div>
+        </div>
+    </footer>
+
+
+<!-- Script start -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./js/blog.js"></script>
+<!-- Script end -->
+</body>
+</html>
