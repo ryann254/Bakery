@@ -33,16 +33,16 @@
                         <div class="active-line"></div>
                         </li>
                         <li class="nav-item pr-2 normal">
-                        <a class="nav-link" href="coming-soon-page.html">About</a>
+                        <a class="nav-link" href="coming-soon-page.php">About</a>
                         </li>
                         <li class="nav-item pr-2 normal">
-                        <a class="nav-link" href="coming-soon-page.html">Portfolio</a>
+                        <a class="nav-link" href="coming-soon-page.php">Portfolio</a>
                         </li>
                         <li class="nav-item pr-2 normal">
                         <a class="nav-link" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item normal pr-lg-4">
-                        <a class="nav-link" href="coming-soon-page.html">Contact</a>
+                        <a class="nav-link" href="coming-soon-page.php">Contact</a>
                         </li>
                 </ul>
             </div>
