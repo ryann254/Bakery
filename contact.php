@@ -8,6 +8,6 @@ if(isset($_POST['submit'])) {
     $txt = "The message is from ".$email;
 
     mail($mailTo, $subject, $txt);
-    header("Location: index.html?mailsend");
+    header("Location: index.php?mailsend");
 
 }
