@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Nunito+Sans&display=swap');
+
+:root {
+    --landing-font-color: #664E00;
+    --primary-font-color: #191400;
+    --alternative-font-color: #CC9D01;
+    --alternative-background-color: #ADB901;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Landing Image */
+.landing-inner {
+    font-family: 'Clicker Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 30px;
+    color: var(--landing-font-color);
+    transform: translateX(-50%);
+    top: 200px;
+}
+
+.logo {
+    width: 310px;
+}
+
+.blog {
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--primary-font-color);
+}
+
+/* Introduction */
+.intro {
+    margin-top: 299px;
+    background: linear-gradient(34.34deg, #A7B2C3 19.51%,
+     #CCD5DF 31.73%, #D5DEE6 50.37%, #D5DEE6 64.83%);
+}
+
+.chef img{
+    height: 300px;
+}
+
+.chef-heading {
+    font-family: 'Clicker Script', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 66px;
+    color: var(--alternative-font-color);
+}
+
+.chef-about {
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--landing-font-color);
+}
+
+/* Work */
+.work {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.work-display .image {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.work-header {
+    text-transform: capitalize;
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.work .landing-decorator,
+.homepage-blog .landing-decorator,
+.contact .landing-decorator {
+    margin-top: -15px;
+}
+
+.icon-left {
+    height: 35px;
+}
+
+.work-1 {
+    height: 350px;
+}
+
+/* Blog */
+.read-pecan,
+.read-journey {
+    background: var(--alternative-background-color);
+    padding: 2px 4px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.image-inner {
+    line-height: 20px;
+}
+
+/* Form */
+.form-group input {
+    background: #FFFFFF;
+    border: 1px solid rgba(25, 20, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+form .btn {
+    background: var(--alternative-background-color);
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+@media all and (max-width: 320px) {
+    .image-inner .heading {
+        line-height: 20px;
+    }
+
+    .image-inner {
+        line-height: 16px;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .landing-image {
+        height: 430px;
+    }
+    .intro {
+        margin-top: 329px;
+    }
+}
+
+@media all and (max-width: 767px){
+    .eclipse {
+        display: none;
+    }
+
+    .intro {
+        max-width: 100%;
+    }
+
+    .chef-image {
+        width: auto;
+    }
+
+    .chef-image img {
+        width: auto;
+    }
+
+    .cupcakes,
+    .cake {
+        display: none;
+    }
+}
+
+@media all and (min-width: 768px) {
+    /* Landing Image */
+    .smaller {
+        display: none;
+    }
+
+    .landing-image {
+        height: auto;
+    }
+
+    .landing-inner {
+        font-size: 69px;
+        line-height: 30px;
+        left: 68%;
+        transform: translateX(-35%);
+        top: 190px;
+    }
+
+    .logo {
+        width: 400px;
+    }
+
+    .eclipse {
+        width: 290px;
+        position: absolute;
+        z-index: 1;
+        top: 260px;
+        left: 45%;
+        transform: translateX(-55%);
+    }
+
+    /* Introduction */
+    .intro {
+        margin-top: 387px;
+        max-width: 100%;
+    }
+
+    .chef{
+        justify-content: flex-start !important;
+        margin-bottom: 0 !important;
+    }
+
+    .chef-heading {
+        font-size: 35px;
+    }
+
+    .chef-about,
+    .work {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .chef-image {
+        width: 100%;
+    }
+
+    .chef-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Work */
+    .work-header{
+        font-size: 37px;
+    }
+    .work .landing-decorator,
+    .homepage-blog .landing-decorator,
+    .contact .landing-decorator {
+        width: 200px;
+    }
+
+    .work-1 {
+        height: auto;
+    }
+
+    /* Contact */
+    .section-contact {
+        position: relative;
+    }
+
+    .contact input,
+    .contact textarea{
+        max-width: 500px;
+    }
+
+    .cupcakes {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+    }
+
+    .cupcakes img{
+        width: 400px;
+    }
+
+    .cake {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: -1;
+    }
+
+    .cake img {
+        width: 310px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    /* Landing Image */
+    .eclipse {
+        width: 380px;
+        top: 320px;
+        left: 47%;
+    }
+
+    .landing-inner {
+        left: 72%;
+        top: 230px;
+    }
+
+    /* Introduction */
+    .intro {
+        margin-top: 517px;
+    }
+
+    .cake {
+        top: 39%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    /* Landing Image */
+    .eclipse {
+        width: auto;
+        top: 360px;
+        left: 51%;
+    }
+
+    .landing-inner {
+        font-size: 85px;
+        left: 69%;
+        top: 280px;
+    }
+
+    .logo {
+        width: 600px;
+    }
+
+    .blog {
+        font-size: 34px;
+    }
+
+    .landing-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Introduction */
+    .intro {
+        margin-top: 665px;
+    }
+
+    .chef-heading {
+        font-size: 38px; 
+    }
+
+    .chef-about,
+    .work {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+     /* Work */
+     .work-header{
+        font-size: 43px;
+    }
+
+    .work .landing-decorator,
+    .homepage-blog .landing-decorator,
+    .contact .landing-decorator {
+        width: 250px;
+    }
+
+    /* Blog */
+    .image-inner {
+        width: 500px;
+    }
+
+    .recipe-1 {
+        height: 420px;
+    }
+
+    .recipe-1 img {
+        height: inherit;
+    }
+
+    .read-pecan,
+    .read-journey {
+        padding: 8px 6px;
+    }
+}
+
+@media all and (min-width: 1366px) {
+    /* Landing Image */
+    .eclipse {
+        top: 430px;
+    }
+
+    .landing-inner {
+        top: 310px;
+        left: 72%;
+    }
+
+    /* Introduction */
+    .intro {
+        margin-top: 750px;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    /* Landing Image */
+    .eclipse {
+        top: 440px;
+        width: 570px;
+    }
+
+    .landing-inner {
+        top: 330px;
+        left: 74%;
+    }
+
+    /* Introduction */
+    .intro {
+        margin-top: 797px;
+    }
+
+    /* Blog */
+    .recipe-1 {
+        height: 450px;
+    }
+}
+
+@media all and (min-width: 1680px) {
+    /* Landing Image */
+    .eclipse {
+        top: 520px;
+        width: 650px;
+        left: 50%;
+    }
+
+    .landing-inner {
+        top: 370px;
+        font-size: 119px;
+        line-height: 77px;
+        left: 73%;
+    }
+
+    .logo {
+        width: 700px;
+    }
+
+    .blog {
+        font-size: 37px;
+        line-height: 30px;
+    }
+
+    .landing-icon {
+        height: 65px;
+        width: 65px;
+    }
+
+    /* Introduction */
+    .intro {
+        margin-top: 950px;
+    }
+
+    .chef-heading,
+    .work-header {
+        font-size: 50px;
+        line-height: 66px;
+    }
+    .chef-about,
+    .work {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+@media all and (min-width: 1920px) {
+    /* Landing Image */
+    .eclipse {
+        top: 570px;
+        width: 790px;
+    }
+
+    .landing-inner {
+        top: 440px;
+        left: 77%;
+    }
+
+    /* Introduction */
+    .intro {
+        margin-top: 1099px;
+    }
+
+    /* Blog */
+    .recipe-1 {
+        height: 450px;
+    }
+}

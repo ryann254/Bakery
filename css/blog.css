@@ -7,15 +7,18 @@
     --nav-link-background-color: #E6B001;
 }
 
+html,body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 27px;
-    background: #F7F7F7;
+    background: #FFFFFF;
     color: var(--primary-background-color);
-    overflow-x: hidden;
 }
 
 .container-fluid {
@@ -242,8 +245,12 @@ footer {
         margin-left: 130px;
     }
 
-    .nav-active {
-        color: rgba(0,0,0,.7) !important;
+    .nav-link {
+        color: #FFFFFF;
+    }
+
+    #nav-active {
+        color: var(--nav-link-background-color) !important;
     }
 
     .nav-bg {
