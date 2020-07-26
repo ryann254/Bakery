@@ -1,3 +1,12 @@
+<?php
+
+if($_POST['EMAIL']) {
+	$mailTo = 'zooking81@gmail.com';
+	$mail = $_POST['EMAIL'];
+	mail($mailTo, 'Testing mail',
+	$_POST['Testing mail from php']. "From: ", $mail);
+}
+?>
 <!DOCTYPE html>
 <html class="cspio">
 <head>
@@ -96,7 +105,7 @@
 			
 			<div id="cspio-description">Get ready! Something really cool is coming!</div>			    				
 			
-			<form id="cspio-form" action="contact.php" method="post">
+			<form id="cspio-form" action="coming-soon-page.php" method="post">
 				<div id="cspio-field-wrapper">
 					<div class="row">
 						<div class="col-md-12 seperate"><div class="input-group"><input id="cspio-email" name="EMAIL" class="form-control input-lg form-el" type="email" placeholder="Email" required/>
