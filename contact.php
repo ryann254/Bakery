@@ -7,7 +7,7 @@ if(isset($_POST['submit'])) {
     $headers = "From: ".$email;
     $txt = "The message is from ".$email;
 
-    mail($mailTo, $subject, $txt);
+    mail($mailTo, $subject, $txt, $headers);
     header("Location: coming-soon-page.php?mailsend");
 
 }
