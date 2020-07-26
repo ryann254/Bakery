@@ -4,7 +4,7 @@ if($_POST['EMAIL']) {
 	$mailTo = 'zooking81@gmail.com';
 	$mail = $_POST['EMAIL'];
 	mail($mailTo, 'Testing mail',
-	$_POST['Testing mail from php']. "From: ", $mail);
+	$_POST['EMAIL']. "From: ", $mail);
 }
 ?>
 <!DOCTYPE html>
