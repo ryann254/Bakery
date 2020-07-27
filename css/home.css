@@ -38,7 +38,6 @@ a {
 
 /* Introduction */
 .intro {
-    margin-top: 299px;
     background: linear-gradient(34.34deg, #A7B2C3 19.51%,
      #CCD5DF 31.73%, #D5DEE6 50.37%, #D5DEE6 64.83%);
 }
@@ -132,15 +131,16 @@ form .btn {
 
 @media all and (max-width: 414px) {
     .landing-image {
-        height: 430px;
-    }
-    .intro {
-        margin-top: 329px;
+        height: 360px;
     }
 }
 
 @media all and (max-width: 767px){
     .eclipse {
+        display: none;
+    }
+
+    .larger {
         display: none;
     }
 
@@ -195,7 +195,6 @@ form .btn {
 
     /* Introduction */
     .intro {
-        margin-top: 387px;
         max-width: 100%;
     }
 
@@ -283,10 +282,6 @@ form .btn {
     }
 
     /* Introduction */
-    .intro {
-        margin-top: 517px;
-    }
-
     .cake {
         top: 39%;
     }
@@ -320,10 +315,6 @@ form .btn {
     }
 
     /* Introduction */
-    .intro {
-        margin-top: 665px;
-    }
-
     .chef-heading {
         font-size: 38px; 
     }
@@ -374,11 +365,6 @@ form .btn {
         top: 310px;
         left: 72%;
     }
-
-    /* Introduction */
-    .intro {
-        margin-top: 750px;
-    }
 }
 
 @media all and (min-width: 1440px) {
@@ -391,11 +377,6 @@ form .btn {
     .landing-inner {
         top: 330px;
         left: 74%;
-    }
-
-    /* Introduction */
-    .intro {
-        margin-top: 797px;
     }
 
     /* Blog */
@@ -434,10 +415,6 @@ form .btn {
     }
 
     /* Introduction */
-    .intro {
-        margin-top: 950px;
-    }
-
     .chef-heading,
     .work-header {
         font-size: 50px;
@@ -460,11 +437,6 @@ form .btn {
     .landing-inner {
         top: 440px;
         left: 77%;
-    }
-
-    /* Introduction */
-    .intro {
-        margin-top: 1099px;
     }
 
     /* Blog */

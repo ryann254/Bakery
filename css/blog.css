@@ -31,6 +31,13 @@ ul {
 }
 
 /* Header */
+.nav-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
 .nav-link {
     text-transform: uppercase;
 }
@@ -41,11 +48,7 @@ ul {
 
 /* Landing Image */
 .landing-image {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    z-index: -1;
     height: 400px;
 }
 
@@ -54,7 +57,7 @@ ul {
     left: 55%;
     transform: translateX(-45%);
     position: absolute;
-    z-index: -1;
+    z-index: 1;
 }
 
 .landing-logo {
@@ -77,10 +80,6 @@ ul {
 }
 
 /* Recipes */
-.recipes {
-    margin-top: 325px;
-}
-
 .recipe-1 {
     position: relative;
 }
@@ -224,6 +223,14 @@ footer {
         font-size: 18px;
         line-height: 32px;
     }
+
+    .boxes {
+        width: 65px;
+    }
+
+    .lifestyle {
+        padding-left: 1px !important;
+    }
 }
 
 @media all and (min-width: 576px) {
@@ -281,7 +288,7 @@ footer {
         left: 45%;
         transform: translateX(-55%);
         position: absolute;
-        z-index: -1;
+        z-index: 1;
     }
     .landing-image {
         height: 703px;
@@ -307,7 +314,7 @@ footer {
 
     /* Recipes */
     .recipes {
-        margin-top: 625px;
+        margin-top: 69px !important;
     }
 
     .move-recipes {
