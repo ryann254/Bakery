@@ -1,6 +1,7 @@
 # Bakery Template:
 
 This is bakery template built with html,css, js, bootstrap and a touch of jquery.It's fully mobile responsive and can be adapted to any bakery theme or specification.
+Check it out here...https://bakery-website-1.netlify.app/
 
 # Noteable Features:
 
